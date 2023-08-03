@@ -1,0 +1,76 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.my-site {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../img/море.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.my-site-header {
+  padding: 10px 40px 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid black;
+}
+
+.my-contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.my-greetings,
+.my-contacts {
+  font-family: monospace;
+  font-size: 20px;
+}
+
+.my-site-body {
+  border-bottom: 2px solid black;
+  width: auto;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.info-about-me {
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+  height: inherit;
+  width: 300px;
+  background-color: rgb(191, 204, 215);
+}
+.text {
+  padding-left: 40px;
+  padding-top: 150px;
+}
+.pics-about-me {
+  border-right: 2px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+}
+.foto {
+  width: 400px;
+  height: 300px;
+  flex: 1;
+}
+.my-site-footer {
+  margin-top: 10px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.last-text {
+  font-family: monospace;
+  font-size: medium;
+  color: white;
+}
